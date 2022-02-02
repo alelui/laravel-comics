@@ -37,5 +37,5 @@ Route::get('/', function () {
 });
 
 Route::get('/partials/chi-siamo', function(){
-    return view('partials.chi-siamo');
+    return view('chi-siamo');
 });
