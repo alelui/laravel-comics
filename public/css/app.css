@@ -8,15 +8,26 @@ body {
   background-color: azure;
 }
 
-.container {
+main {
+  background-color: black;
+}
+main .container {
   width: 80%;
   margin: 0 auto;
-  background-color: black;
   color: white;
   display: flex;
   flex-wrap: wrap;
 }
-.container .box {
+main .container .box {
   width: calc(16.6666666667% - 20px);
   margin: 10px;
+  text-transform: uppercase;
+}
+main .container .box .img-box {
+  height: 180px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+main .container .box .img-box img {
+  width: 100%;
 }

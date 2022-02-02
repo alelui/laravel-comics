@@ -7,5 +7,5 @@ CHI Siamo
 @endsection
 
 @section('pageContent')
-<h3>Siamo Solo Noi</h3>
+<h3>WORKING PROGRESS</h3>
 @endsection
