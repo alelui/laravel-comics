@@ -35,3 +35,7 @@ Route::get('/', function () {
     ];
     return view('home', ["credentials"=>$data]);
 });
+
+Route::get('/partials/chi-siamo', function(){
+    return view('partials/chi-siamo');
+});
