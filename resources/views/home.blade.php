@@ -6,8 +6,14 @@
 @endsection
 
 @section('pageContent')
-    <h1>Primo_Contatto</h1>
-    @foreach ($credentials as $item)
-        <p>{{$item["nome"]}}, {{$item["cognome"]}}</p>
-    @endforeach
+    <div class="container">
+        @foreach ($credentials as $item)
+            <div class="box">
+                <div class="img-box">
+                    <img src="{{$item['thumb']}}" alt="">
+                </div>
+                <p>{{$item["series"]}}</p>
+            </div>
+        @endforeach
+    </div>
 @endsection

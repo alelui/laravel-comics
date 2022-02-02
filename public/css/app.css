@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: azure;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+.container .box {
+  width: calc(16.6666666667% - 20px);
+  margin: 10px;
+}
