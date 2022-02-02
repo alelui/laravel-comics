@@ -7,5 +7,7 @@ CHI Siamo
 @endsection
 
 @section('pageContent')
-<h3>WORKING PROGRESS</h3>
+<div id="chi-siamo">
+    <h2>WORKING PROGRESS!!</h2>
+</div>
 @endsection

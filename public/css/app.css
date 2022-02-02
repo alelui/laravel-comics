@@ -9,12 +9,18 @@ body {
 }
 
 main {
+  color: white;
   background-color: black;
+}
+main #chi-siamo {
+  color: red;
+  height: 300px;
+  line-height: 300px;
+  text-align: center;
 }
 main .container {
   width: 80%;
   margin: 0 auto;
-  color: white;
   display: flex;
   flex-wrap: wrap;
 }

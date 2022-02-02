@@ -1,3 +1,3 @@
 <footer>
-    <h5>Harry Footer</h5>
+    <h2>Harry Footer</h2>
 </footer>
